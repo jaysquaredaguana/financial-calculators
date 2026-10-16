@@ -3,8 +3,7 @@ package com.pluralsight;
 import java.util.Scanner;
 
 public class MortgageCalculator {
-    public static void main(String[] args) {
-        Scanner read = new Scanner(System.in);
+    public static void run(Scanner read) {
 
         // Get loan information
         double principal = getPrincipal(read);

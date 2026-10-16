@@ -3,8 +3,7 @@ package com.pluralsight;
 import java.util.Scanner;
 
 public class FutureValueCalculator {
-    public static void main(String[] args) {
-        Scanner read = new Scanner(System.in);
+    public static void run(Scanner read) {
 
         // Get deposit information
         double principal = getDeposit(read);
